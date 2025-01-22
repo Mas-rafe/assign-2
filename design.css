@@ -133,3 +133,15 @@ justify-content: center;
     }
     
 }
+/*part 2*/
+.part-2{
+   background-image: "";
+}
+.card-cont{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    border: 1px solid;
+    border-radius: 12px;
+}
