@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.body{
+    
+    margin: 20px 40px 20px 40px;
+  
+    
+}
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+  .navbar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    
+    
+ 
+  
+  }
+  .school{
+    font-size: 32px;
+    font-weight: bold;
+   
+  }
+  .navs{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+
+  }
+  
+  .navigations{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+   
+  }
+  .img{
+    height: 62px;
+    width: 62px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+   
+   }
+  .contact{
+    color: white;
+    background-color: orange;
+    font-size: 20px ;
+    font-weight: 300;
+    padding: 10px;
+    width: 177px;
+    height: 50px;
+    border: 1px solid orange;
+    border-radius: 12px;
+    
+   
+    
+  }
+  /*navigations design*/
+  .home{
+color: orange;
+  }
+  .about{
+color: skyblue;
+  }
+  .facility{
+color: #05D4DF;
+  }
+  .admission{
+color: #5D58EF;
+  }
+  /*banner*/
+  .b-head{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .emp{
+    color: orange;
+  }
+.twd{
+    color: skyblue;
+}
+.enroll{
+    color: white;
+    background-color: black;
+    font-size: 20px ;
+    font-weight: 300;
+    padding: 10px;
+    width: 177px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 12px;
+
+}
+.b2{
+    width: 338px;
+    height:275px ;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+}
+.b-title{
+    align-items: end;
+    margin-right: 80px;
+    margin-top: 150px;
+    margin-left: -100px;
+   
+}
+.banner{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top:-30px;
+ 
+    
+    
+}
+.b-head{
+justify-content: center;
+}
+@media screen and (max-width:476px;) {
+    .img ,.logo, . .banner{
+        flex-direction: column;
+        
+    }
+    
+}
